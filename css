@@ -1,0 +1,78 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Fundo cinza claro */
+}
+
+header {
+    background-color: #4c8bf5; /* Azul */
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4c8bf5; /* Azul */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos */
+#cotacao, #calculadora {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label, input, button {
+    display: block;
+    margin: 10px;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilos semelhantes ao Google Finance */
+#cotacao {
+    border: 1px solid #dfe4ed;
+    padding: 20px;
+    width: 45%;
+    box-shadow: none;
+}
+
+#calculadora {
+    border: 1px solid #dfe4ed;
+    padding: 20px;
+    width: 45%;
+    box-shadow: none;
+}
+
+#cotacao h2, #calculadora h2 {
+    background-color: #f4f7fc; /* Cinza claro */
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+}
+
+#cotacao p, #calculadora p {
+    font-size: 20px;
+}
+
+#resultado {
+    border: 1px solid #dfe4ed;
+    padding: 20px;
+    width: 100%;
+    box-shadow: none;
+}
